@@ -1,10 +1,8 @@
 import "./App.css";
-import AreaGraph from "./components/Chart/AreaGraph";
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Navbar from "./components/Navbar";
-import Fullscreen from "../src/components/SVGs/Fullscreen";
-import Compare from "../src/components/SVGs/Compare";
 import Chart from "./components/Chart/Chart";
 
 function App() {

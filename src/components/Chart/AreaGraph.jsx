@@ -65,7 +65,7 @@ const AreaGraph = ({ graphData }) => {
 				className="font-semibold"
 			/>
 			<YAxis tickLine={false} axisLine={false} />
-			{/* <Tooltip content={<CustomTooltip formattedNumber />} /> */}
+			<Tooltip />
 			<Area
 				type="linear"
 				dataKey="target"
