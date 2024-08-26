@@ -31,7 +31,7 @@ const AreaGraph = ({ graphData }) => {
 	});
 
 	//Format date from yyyy-mm-dd to dd-month
-	sortedData.map((data) => {
+	sortedData.forEach((data) => {
 		const formatDate = (dateString) => {
 			const date = new Date(dateString);
 			const day = date.getDate();
